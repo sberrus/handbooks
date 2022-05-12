@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 // ANOTACIONES DEL HANDBOOK DE TYPESCRIPT OFICIAL DE MICROSOFT. REPASANDO LOS ASPECTOS MÁS GENERALES DEL COMPILADOR
 // LINK: https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+=======
+// Curso básico de Typescript desde la documentación oficial.
+>>>>>>> c7ecdbd225d85261f845605b519892213f59308a
 
 /**
  * Typescript es un compilador de Javascript que permite incorporarle caracteristicas nuevas para
@@ -153,6 +157,7 @@ const isLocked: LockStates =   ;
 	  return [obj];
 	}
 	return obj;
+<<<<<<< HEAD
   }
 
 // TYPOS GENERICOS
@@ -217,3 +222,6 @@ type StringArray = Array<string>;
  */
 
 // samdev
+=======
+  }
+>>>>>>> c7ecdbd225d85261f845605b519892213f59308a
