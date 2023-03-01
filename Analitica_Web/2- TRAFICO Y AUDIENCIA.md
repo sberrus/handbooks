@@ -86,19 +86,73 @@ Hay otros conceptos a tener en cuenta a la hora de analizar los datos de una pá
 
 -  También podemos ver la cantidad de visitas que ha tenido una página web en concreto. Por lo que la visita al sitio web se cuenta diferente a la visita de una página en concreto. De esta manera podemos ver que productos cuentan con más visitas y cuales con menos para poder tomar acciones al respecto.
 
-- Hay dos tipos de visitas principales, las **nuevas** y las de **retorno**. Las visitas nuevas son de las personas que es la primera vez que entran en el sitio, por lo que las de retorno son de aquellas que ya han visitado nuestro sitio web con anterioridad.
+-  Hay dos tipos de visitas principales, las **nuevas** y las de **retorno**. Las visitas nuevas son de las personas que es la primera vez que entran en el sitio, por lo que las de retorno son de aquellas que ya han visitado nuestro sitio web con anterioridad.
 
-- Hemos visto que las cookies tienen caractertisticas temporales que debemos tener en cuenta pero no son las unicas, a continuación veremos otros aspectos que debemos tomar en cuenta respecto a las cookies:
+-  Hemos visto que las cookies tienen caractertisticas temporales que debemos tener en cuenta pero no son las unicas, a continuación veremos otros aspectos que debemos tomar en cuenta respecto a las cookies:
 
-    - Cuando un usuario accede a un sitio web desde 2 navegadores distintos, se cuenta como visitas diferentes. Esto se debe a que el navegador almacena la cookie en el navegador sin tener la posibilidad de compartir dichas cookies entre navegadores distintos.
+   -  Cuando un usuario accede a un sitio web desde 2 navegadores distintos, se cuenta como visitas diferentes. Esto se debe a que el navegador almacena la cookie en el navegador sin tener la posibilidad de compartir dichas cookies entre navegadores distintos.
 
-    - Si el usuario borra o no acepta las cookies, no podra ser identificado como el mismo visitante unico en próximas visitas.
+   -  Si el usuario borra o no acepta las cookies, no podra ser identificado como el mismo visitante unico en próximas visitas.
 
-- El registro de las visitas en cualquier herramienta estadística se realiza de la siguinte manera:
+-  El registro de las visitas en cualquier herramienta estadística se realiza de la siguinte manera:
 
-    1. Cuando el usuario visita la primera página del sitio, empieza una nueva sesión para el navegador en el cual se encuentre navegando.
-    2. Si el usuario en el mismo navegador, vivista distintas páginas dentro de la misma sesión, estas visitas se adjudican a la sesión que se encuentre abierta en ese momento.
-    3. La sesión terminara cuando el usuario abandone el sitio o permanezca inactivo por más de 30 minutos.
+   1. Cuando el usuario visita la primera página del sitio, empieza una nueva sesión para el navegador en el cual se encuentre navegando.
+   2. Si el usuario en el mismo navegador, vivista distintas páginas dentro de la misma sesión, estas visitas se adjudican a la sesión que se encuentre abierta en ese momento.
+   3. La sesión terminara cuando el usuario abandone el sitio o permanezca inactivo por más de 30 minutos.
 
 ### Visitantes
+
+Esta métrica es un poco más flexible en cuanto a concepto. Podría definirse como visitantes unicos, visitantes unicos absolutos o visitantes exclusivos. Aunque también ciertas herramientas pueden definir estos como viistantes unicos semanales, mensuales o trimestrales, etc.
+
+Indiepientemente del caso o de como lo gestione la herramienta en cuestión, se refiere al número de usuarios distintos que han accedido a un determinado sitio web en determinado plazo de tiempo. Este número es aproximado por diversos motivos:
+
+-  Cuando dos personas se conectan a una misma página web desde el mismo navegador pero sin cerrar sesión en el navegador, el sistema cuenta la sesión como una sola.
+-  Cuando una misma persona accede al sitio desde dos lugares diferentes como por ejemplo, desde el ordenador de casa y luego desde el del trabajo, cuenta como 2 sesiones diferentes cuando realmente se trata de la misma persona.
+
+Cosas a tener en cuenta:
+
+-  Google Analytics inserta una cookie con un identificador unico que caduca a los 2 años desde la creación o actualización. No confundir con la cookie.
+
+-  Si el usuario elimina la cookie manualmente, Google Analytics le asigna una nueva cookie al navegador.
+
+-  Si el navegador usa distintas cuentas de usuario, google asigna una cookie para cada usuario en el navegador correspondiente.
+
+### Promedio de tiempo en un sitio web
+
+Se refiere al tiempo que pasa un usuario visitando nuestra sitio web. A mayor tiempo de visita en nuestro sitio, mayor será la media de retención que tiene nuestro sitio web siendo este un signo positivo para nuestro sitio o marca.
+
+Las distintas herramientas de recopilación de datos obtienen esta medida de distintas maneras, para usar como referencia siendo Google Analytics la herramienta principal para esta tarea, GA lo que hace es empezar a contar desde que se realiza el primer (HIT) o acción dentro de la página. Sin esta acción NO EMPIEZA EL CONTADOR.
+
+Por lo que dependiendo el caso Google puede o no contabilizar el tiempo de sesió dentro de nuestro sitio:
+
+1. Sin interacción: Esto ocurre cuando el usuario entra a una página web en la cual no interacciona EJ: una landing page; y luego se marcha del sitio. En este caso el contador no se toma en cuanta porque Google no cuenta dicha interacción como sesión.
+
+2. Interacción con cambio de página: Un usuario accede a una página de un producto de nuestro catálogo, pasado unos minutos este decide cambiar el color del teléfono y esto ocaciona una recarga en la página del teléfono para mostrar la correspondiente al color rojo. Este tiempo que ha transcurrido desde que el usuario accedio a la página y cambio a la página con el atributo del teléfono en otro color SI CUENTA debido a que el cambio se ha realizado saliendo de una página de nuestro dominio para entrar a otra que sigue dentro de nuestro dominio.
+
+3. Interacción pero sin cambio de página: Imaginemos ahora que el usuario al entrar a la página y ver el producto decide añadirlo al carrito de compra ocasionando un click en el boton de "añadir al carrito" y por ende disparando el (HIT). En este ejemplo en concreto tenemos que tomar en cuenta lo siguiente: Supongamos que el usuario entro a la página a las 9.00, recargamos la página a las 9.05 y tocamos el botón a las 9.10; luego terminamos la compra a las 9.15, pero no hemos recargado la página ni hecho click en ningún otro click que hayamos programado. El tiempo registrado sería de 10 minutos desde que entramos a la página e hicimos click en el botón de añadir el carrito. Los 5 minutos restantes hasta el final del proceso de compra no se toman en cuenta.
+
+![Tiempo medio visita](./assets/tiempo_medio_visita.jpg)
+
+
+### Tasa o % de Rebote
+
+Esta tasa de rebote se ocaciona cuando los usuarios entran a la página web sin realizar ningún hit o activar ningín (HIT).
+
+La tasa de rebote se refiere que si por ejemplo entran a nuestra página 100 usuarios pero solo 30 navegan o activan hits dentro de nuestra página, esto quiere decir que tenemos una tasa de rebote del 70%.
+
+Hay una pregunta que puede surgir debido a todo esto: **¿Cuánto es una tasa de rebote normal?**
+
+Para responder a la anterior pregunta hay que tomar en cuenta la naturaleza de nuestro sitio web. En los siguientes ejemplos entraremos más en detalle al respecto.
+
+1. Ecommerce de venta de ordenadores portatiles con una tasa de rebote del 80% con muchos elementos clicables y un tiempo medio de visita de 20 segundos.
+
+2. Blog de informatica en el que se muestran y se responden dudas y preguntas de los lectores con una tasa de rebote del 80% en el cual solo hay una barra de navegación para navegar entre articulos y secciones con un tiempo medio de visita de 4 minutos.
+
+A priori ambos necesitan realizar cambios pero en el caso del primer ejemplo parece que algo esta fallando.
+
+Observando los datos del primer ejemplo, al ser una visita en la cual la gente tiene que tomarse un tiempo para estudiar y analizar los datos que le muestran de los equipos o de los productos disponibles. Estamos fallando debido a que los clientes no se encuentran retenidos la cantidad de tiempo necesaria.
+
+En el caso 2, podemos observar que es más complicado de hacer click en los HITs por lo cual el hecho de que este contando los hits, indica que los usuarios estan navegando dentro de nuestro sitio y el tiempo de visita nos dice que la gente esta interesada en la información que se les esta presentando. Para mejorar la estadística, podriamos por ejemplo, al final de cada post, incluir alguna acción que active un hit de manera que podamos mejorar nuestra tasa de rebote.
+
+![Gráfico tasa de rebote](./assets/grafico_tasa_rebote.jpg)
 
