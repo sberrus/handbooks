@@ -133,7 +133,6 @@ Por lo que dependiendo el caso Google puede o no contabilizar el tiempo de sesi�
 
 ![Tiempo medio visita](./assets/tiempo_medio_visita.jpg)
 
-
 ### Tasa o % de Rebote
 
 Esta tasa de rebote se ocaciona cuando los usuarios entran a la página web sin realizar ningún hit o activar ningín (HIT).
@@ -156,3 +155,63 @@ En el caso 2, podemos observar que es más complicado de hacer click en los HITs
 
 ![Gráfico tasa de rebote](./assets/grafico_tasa_rebote.jpg)
 
+### Páginas por sesión
+
+Está métrica se basa en sacar una media de la cantidad de páginas que los usuarios visitan por cada sesión.
+
+Está métrica también se debe interpretar correctamente dependiendo de la naturaleza del sitio en cuestión.
+
+![Páginas por sesión](./assets/paginas_por_sesion.jpg)
+
+### % de nuevas sesiones
+
+Está métrica define a los ususarios que entran a nuestro sitio web por primera vez o aquellos que han borrado la cookie de su navegador, entran desde otro navegador o dispositivo, etc... contando estos como nuevas sesiones.
+
+Esta es una métrica interesante porque nos permite saber cuantos usuarios tenemos fidelizados y, por ejemplo, al realizar una campaña, podemos observar que tan efectiva ha sido atrayendo a nuevos usuarios.
+
+Si es una web muy especializada con un nicho de mercado muy reducido, es normal que está métrica sea baja ya que los usuarios son personas que suelen volver al no tener muchas opciones o al ser un publico muy de nicho.
+
+En otro caso, supngamos que tenemos un E-commerce de venta de coches de segunda mano. En este caso la tasa de nuevas sesiones deberia ser elevada al ser estas visitas más de carácter general y los clientes son más esporadicos. En este tipo de webs si hay una relación entra la cantidad la cantidad de nuevos usuarios y el aumento en las ventas de la plataforma.
+
+### Páginas
+
+Son todas las secciones/páginas que visita un usuario. Podremos difereciar entre páginas de entrada, en las que los usuarios acceden a nuestra web; y las de salida, siendo estas las que los usuarios usan para salir de nuestra web.
+
+Esta métrica suele ser más elevada que el conteo de usuarios, esto se debe a que un usuario en una sesión puede visitar una o más páginas en dicha sesión.
+
+Este dato se suele utilizar en conjunto con otros datos para poder tener una mejor visión acerca de lo que este aconteciendo en nuestra web.
+
+El objetivo principal y más utilizado se suele usar para analizar los datos de una página en concreto. Si es verdad que el dato del sitio en conjunto puede darnos información relativa al comportamiento del usuario, a menos que analizemos página por página, no podremos identificar cuales son las páginas que estan recibiendo más visitas y cuales menos y por ende tomar acciones para mejorar esos datos. Como en el caso de que una sola página este generando el 60% de la facturación del sitio, a menos que analizemos dicha página y constatemos sus datos con las demás no podremos tener un espectro el cual nos indique que es lo que esta ocurriendo con esa página para que este generando tantas visitas en relación con el resto de páginas del sitio.
+
+#### Páginas de entrada
+
+Al analizar las páginas de manera individual hay que tomar en cuenta el tipo de tráfico que esta está generando y el tipo de tráfico que genera la misma. Según **Gema Muñoz**, esto son los aspectos que debemos tomar en cuenta a la hora de analizar una página en concreto:
+
+> Aquellos que ven la página y se van: De nada nos sirve atraer usuarios a una página si estos al entrar no encuentran motivos para quedarse o para continuar navegando dentor de la misma.
+> _Se recomienda analizar la tasa de rebote_
+
+> Aquellos usuarios que ven la página y continuan navegando dentro de la misma: Debemos tener en cuenta si el tráfico interesado es de calidad o no.
+> _Se recomienda estudiar las páginas vistas por visita y la duración media de la visita_
+
+> Usuarios que llegan a la página, continuan navegando en nuestro sitio y llegan a convertir.
+> _Se debe analizar la tasa de rebote como la tasa de conversión de las páginas de entrada._ Dependiendo el caso podemos encontrarnos con los siguientes escenarios:
+>
+> > Tasa de conversió alta y tasa de rebote alta: En este caso debemos analizar y corregir con urgencia según sea el caso.
+>
+> > Tasa de conversión baja y tasa de rebote alta: En este caso hay algún problema en la conversión del usuario, por lo que se debe estudiar que es lo que esta haciendo que el usuario abandone le proceso antes de llegar a convertir.
+>
+> > Tasa de conversión muy baja (casi cero) y tasa de rebote muy alta: En este caso es una página fallida, se recomienda eliminar directamente.
+
+![Páginas entrada](./assets/paginas_entrada.jpg)
+
+#### Páginas de salida
+
+En el caso de las páginas de salida debemos tomar en cuenta cuales de ellas se trata para tomar decisiones de manera correcta.
+
+Dos de las más importantes son la Home o cualquier página que contenga productos, que en definitiva es lo que nos interesa optimizar.
+
+-  Home: En este caso es normal que la tasa de salida sea alta por lo que debemos analizar es la tasa de rebote. Si la tasa de rebote es baja y una tasa de salida alta, indica que los usuarios entra a nuestra página, navegan por nuestro sitio y luego salen por la misma página de Home. Si la tasa de salida es alta al igual que la tasa de rebote, tenemos un problema porque indica que los usuarios al entrar a la web, algo los incita a salir sin navegar.
+
+-  Páginas en las que se puede realizar una compra: La última página del proceso de compra (típica página de "Gracias por su compra | vuelva pronto | thanks for your money 💸"), debe ser esta, dentro del flujo del proceso de compra (carrito - formulario de datos del comprador - pago - página de verificación de compra | "grácias por su compra"). Si en alguno de los pasos anteriores a dicha página tiene una tasa inusualmente alta de salida, debemos estudiar que esta pasando para que los usuarios abandonen el proceso de compra.
+
+![Páginas salida](./assets/pagina_salida.jpg)
