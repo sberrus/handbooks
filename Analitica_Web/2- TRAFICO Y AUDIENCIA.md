@@ -46,7 +46,7 @@ Antes de detallar cada uno de los puntos anteriores debemos definir cómo y qué
 
 Antes que nada estableceremos la diferencia entre **Página y Sitio Web**.
 
-Sitio Web es aquel que esta conformado por un dominio, tomando como ejemplo **www.facebook.com**, todo lo correspondiente a **www.facebook.com** es el sitio web, sus páginas, assets, corporación, etc...
+Sitio Web es aquel que esta conformado por un dominio, tomando como ejemplo **www.facebook.com**, todo lo correspondiente a **www.facebook.com** es el sitio web, sus páginas, assets, corporación, etc.
 
 Las **Páginas Web** son cada una de las secciones que conforman un dominio. Usando el ejemplo de **www.facebook.com**, un ejemplo de página ppdria ser **www.facebook.com/perfil-de-prueba**, siendo esta última, una página dentro del sitio **www.facebook.com**.
 
@@ -165,7 +165,7 @@ Está métrica también se debe interpretar correctamente dependiendo de la natu
 
 ### % de nuevas sesiones
 
-Está métrica define a los ususarios que entran a nuestro sitio web por primera vez o aquellos que han borrado la cookie de su navegador, entran desde otro navegador o dispositivo, etc... contando estos como nuevas sesiones.
+Está métrica define a los ususarios que entran a nuestro sitio web por primera vez o aquellos que han borrado la cookie de su navegador, entran desde otro navegador o dispositivo, etc. Contando estos como nuevas sesiones.
 
 Esta es una métrica interesante porque nos permite saber cuantos usuarios tenemos fidelizados y, por ejemplo, al realizar una campaña, podemos observar que tan efectiva ha sido atrayendo a nuevos usuarios.
 
@@ -215,3 +215,86 @@ Dos de las más importantes son la Home o cualquier página que contenga product
 -  Páginas en las que se puede realizar una compra: La última página del proceso de compra (típica página de "Gracias por su compra | vuelva pronto | thanks for your money 💸"), debe ser esta, dentro del flujo del proceso de compra (carrito - formulario de datos del comprador - pago - página de verificación de compra | "grácias por su compra"). Si en alguno de los pasos anteriores a dicha página tiene una tasa inusualmente alta de salida, debemos estudiar que esta pasando para que los usuarios abandonen el proceso de compra.
 
 ![Páginas salida](./assets/pagina_salida.jpg)
+
+#### Tasa de coversión
+
+Está métrica indica la cantidad de objetivos que hemos alcanzado en relacion al número de visitas del sitio en cuestión.
+
+En Google Analytics se analiza de la siguinte forma: Objetivos alcanzados / Visitas Podemos tener distintas conversiones dependiendo de la naturaleza del sitio a estudiar. Por ejemplo:
+
+-  Realizar una venta en un ecommerce.
+-  El números de formularios de LEADS rellenados.
+-  Cantidad de suscripciones a una Newsletter.
+
+Son objetivos que nosotros tenemos que definir y que conllevan a una acción que aumenta la efectividad o la razón de ser del sitio en cuestión. Esto nos ayuda a poder definir objetivos a alcanzar como por ejemplo: que un 3% de las visitas se convertan en compras finalizadas.
+
+![Conversiones ](./assets/conversiones.jpg)
+
+### TIPOS DE TRÁFICO
+
+Una vez vistas las métricas fundamentales, podemos empezar a analizar el tipo de tráfico que podemos obtener, es decir de donde provienen nuestras visitas. Dependiendo de la naturaleza de nuestra web, este tráfico puede comportarse de diversas maneras.
+
+Podemos decir que los principales son:
+
+1. Orgánico.
+2. Pagado.
+3. Directo.
+4. De referencia.
+5. Búsqueda.
+6. Campañas.
+
+![Tráfico](./assets/trafico.jpg)
+
+#### Tráfico orgánico
+
+Este es el tráfico que proviene directamente de navegadores como Google, Bing, Yahoo, etc.
+
+Este tipo de tráfico tiene rasgos generales que podemos definir como **Not provided** y **listado de palabras**.
+
+-  Listado de palabras: Este se refiere a cuando nosotros en neustra web tenemos ciertas palabras clave que el usuario ha buscado y hemos aparecido en los resultados de busqueda.
+
+-  Not provided: Se refiere cuando el usuario que ha realizado la busqueda se encuentra logeado en alguno de los servicios de Google (Gmail, Adwords, o cualquiera de sus aplicaciones) \*\* Me no entender VERY bien este punto. Sorry 🤷‍♂️
+
+\*\* UPDATE POST INVESTIGACIÓN \*\*
+
+Desde el 2011 Google no puede proveer los datos de las palabras clave ni la procedencia de los usuarios a través de las herramientas de analítica debido a los encriptados SSL. Esto lo decidio para que Google pudiera aumentar la privacidad en el uso y comportamiento de sus usuarios.
+
+\*\* FIN UPDATE \*\*
+
+#### Tráfico de pago
+
+Este tipo de tráfico se refiere al que se realiza pagando a herramientas de SEM para aumentar las visitas a un sitio web mediante publicidad paga en buscadores. Proviene de campañas publicitarias de Adwords y/o herramientas similares.
+
+Google Adwords y Analitycs analizan los datos de forma diferente y tienen herramientas de métricas distintas. El enfoque de las métricas de Google Adwords tiene más peso en **donde** se muestra la publicidad y como los usuarios interactuan con ella. En cambio Analitycs analiza la interacción de los usuarios **ya dentro de tu sitio web**.
+
+#### Tráfico social (RRSS)
+
+Este es el tráfico que procede de las distintas redes sociales. Dependiendo la naturaleza del sitio web, este tráfico puede tener mayor o menor relevancia en nuestros potenciales consumidores.
+
+#### Tráfico directo
+
+Esté tipo de tráfico no se debe confundir con el tráfico orgánico. El tráfico orgánico se refiere a las visitas que obtenemos mediante **estrategias de SEO en buscadores.** Por otro lado el Tráfico Directo, es el tráfico que la herramienta no es capaz de obtener la procedencia de dicha visita como por ejemplo, cuando el usuario introduce manualmente la dirección URL del sitio/página.
+
+Google no deja claro como contabiliza este tipo de tráfico pero mediante estudios y pruebas podemos indicar aproximadamente que también provienen de estas interacciones:
+
+-  Click en algun enlace situado fuera de los buscadores.
+-  Urls guardadas en las pestañas de favoritos o acceso directo mediante uso de barra de urls del navegador.
+-  Visitas registradas si nuestra página no cuenta con certifiado SSL.
+-  Usuarios con navegadores que bloquean el que se comparta información de ellos con terceros.
+-  Enlaces producidos por scripts de Javascripts o Flash.
+-  Mediante Iframes con ocultación de datos mediante atributo referrer.
+
+#### Tráfico de referencia o Referral
+
+Está métrica se refiere al tráfico que proviene de un enlace directo desde otro sitio web.
+
+Este tráfico aumenta de manera positiva el SEO de nuestra web aumentando la **autoridad de dominio** de nuestro sitio web. A más tráfico de referencia tengamos, mayor será nuestra autoridad de dominio y mejorará positivamente nuestro SEO.
+
+#### Tráfico de campañas
+
+Este es el tráfico que proviene de campañas que no sean de Google Adwords. Está es una meétrica especial ya que esta se contabiliza utilizando parámetros de url como UTM_source, UTM_medium, UTM_campaign etc...
+
+Está métrica la podemos configurar de manera personalizada por lo que en conjunto con Marketing, definimos la configuración exacta de dicha campaña.
+
+Cuando compramos publicidad en otra página mediante camapañas de banners, links etc... utilizamos urls con dichos parámetros que nos ayudan a identificar dicho tráfico para la campaña que se este realizando en ese momento.
+
