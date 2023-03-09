@@ -44,3 +44,54 @@ También podemos agregar o eliminar usuarios a la propiedad para que puedan util
 
 Uno de las principales funcionalidades de GA es poder analizar los datos usando la fecha como filtro. Esto nos permite tener análisis más precisos dependiendo de la temporalidad del estudio en cuestión.
 
+En conjunto con las variables explicadas anteriormente, usamos estas en conjunto con la que veremos a continuació para tener un análisis más profundo respecto a los puntos que estemos estudiando.
+
+#### Audiencia
+
+Este punto se refiere al como identificamos al perfil del tráfico que nos visita. Las herramientas nos permiten obtener además de los datos geográficos, otros datos de interes para poder segmentar correctamente los datos de los visitantes.
+
+- Visión General:
+
+    En esta vista podemos ver de un vistazo los puntos más importantes que nos proporciona la herramienta para poder analizar rápidamente los datos de nuestro sitio web.
+
+![Vista general](./assets/vista_general.jpg)
+
+- Datos demográficos:
+
+    Perfíl ordenado por edad y sexo de nuestros visitantes. **Esta información debemos activarla manualmente** mediante la configuración de la propiedad en el panel de administración de Google Analitycs.
+
+![Datos demográficos](./assets/datos_demograficos.jpg)
+
+- Interes:
+
+    Al crear una propiedad en GA, debemos indicar el sector al cual pertenece nuestro sitio web. Esta configuración es importante porque nos ayuda mediante sus herramientas internas a saber los intereses de los visitantes. Esta métrica es bastante importante porque nos ayuda a saber en que sitios debemos enfocarnos para mejorar nuestras campañas de marketing y negociación con sitios de terceros.
+
+![Sitios de interés](./assets/sitios_interes.jpg)
+
+- Información Geográfica:
+
+    Esta métrica nos indica la ubicación y el idioma de los visitantes. Muy interesante para webs que tienen un enfoque internacional. Esto nos ayuda a saber e que idiomas debemos priorizar la traducción y mejorar nuestras campañas de marketing dependiendo de la ubicación de neustros visitantes.
+
+![Información geográfica](./assets/informacion_geografica.jpg)
+
+- Comportamiento:
+
+    Se trata de información que devuelve referente al comportamiento de las sesiones. Podremos ver los visitantes nuevos y los recurrentes, la frecuencia media de los usuarios (dependiendo del intervalo de tiempo el cual se este estudiando).
+
+![Comportamiento usuarios](./assets/comportamiento.jpg)
+    
+
+- Tecnología:
+
+    Datos sobre le navegador y la compañia telefónica del cual estan usando la red.
+
+![Tecnología](./assets/tecnologia.jpg)
+
+
+- Dispositivos móviles:
+
+    Métricas detalladas sobre el formato del dispositivo utilizado en la visita (Móviles, tabletas o pc), incluso podemos saber le modelo exacto de los mismos.
+
+![Dispositivos móviles](./assets/dispositivos.jpg)
+
+
