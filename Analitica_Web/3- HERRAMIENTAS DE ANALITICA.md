@@ -94,4 +94,79 @@ Este punto se refiere al como identificamos al perfil del tráfico que nos visit
 
 ![Dispositivos móviles](./assets/dispositivos.jpg)
 
+#### Adquisición:
+
+- Visión general:
+
+    En esta sección veremos una visión general de los principales medidores que nos provee esta herramienta.
+
+- Todo el tráfico:
+
+    Se trata de un análisis más especifico de cada sección. En este apartado podremos  ver la Fuente/Medio la cual es el encargado de mostrar la información relativa a las campañas publicitarias de marketing.
+
+- Adwords: 
+
+En esta podremos ver un vistazo general de las campañas de Adwords que tengamos activas junto al departamento de Marketing. En este podremos observar de manera ráìda las pujas, las palabras claves, el tráfico, y las url's finales.
+
+- Search Console: 
+
+En este apartado podremos ver un resumen de las estadísticas más relacionadas con el seo de nuestros sitios web. Aunque nos muestra un breve resumen, lo mejor es ir directamente a la herramienta de Search Console para poder analizar mejor estos datos por separado. Esto lo podremos hacer en https://www.google.com/webmasters
+
+- Medios Sociales: 
+
+Tráfico proveniente de distintas redes sociales.
+
+- Campañas: 
+
+Este es el encargado de mostrar tanto las campañas de Adwords como las campañas que traen tráfico de webs externas. Aquí podremos monitorizar las camapañas personalizadas que comentamos anteriormente que usan los parámetros UTM_*.
+
+#### Comportamiento:
+
+- Visión General: 
+
+Este nos permite ver una visión general de los datos de comportamiento de nuestro sitio web pero más enfocado a los datos provenientes de las páginas.
+
+![Visión general comportamiento](./assets/vision_general_comportamiento.jpg)
+
+- Flujo de comportamiento: 
+
+Se trata de un esquema gráfico que nos permite ver el flujo de páginas por las cuales los usuarios visitan a lo largo de su sesión por nuestro sitio web.
+
+![Flujo comportamiento](./assets/flujo_comportamiento.jpg)
+
+- Contenido del sitio: 
+
+Información relativa a todas las páginas del dominio. Nos permite ver de un vistazo informació de todas las páginas y sus datos para observer cuales estan aumentando o reduciendo sus visitas a lo largo del tiempo.
+
+![Visitas comportamiento](./assets/visitas_comportamiento.jpg)
+
+- Velocidad del sitio:
+
+Mediante esta sección podremos ver los tiempos de carga de nuestro sitio web y cada una de sus páginas para poder optimizar el rendimiento de las mismas.
+
+![Tiempos carga sitio](./assets/tiempos_carga.jpg)
+
+- Busquedas en el sitio:
+
+Mediante esta sección podremos observar mediante el buscador interno del sitio, cuales son las busquedas que los usurios suelen realizar y poder estudiar cuales son los productos o servicios de mayor interes para nuestros usuarios.
+
+![Busquedas internas](./assets/busquedas_internas.jpg)
+
+#### Conversiones:
+
+- Objetivos:
+
+En este apartado debemos haber previamente definido los objetivos que deseamos que nuestro sitio web satisfaga mediante el panel de administración del dominio en GA.
+
+- Comercio Electrónico:
+
+Al igual que el paso anterior, debemos definir los objetivos manualmente en el panel. Estas están más enfocadas a las conversiones de tipo comercio electronico teniendo apartados especificos para definir y capturar las conversiones de estos.
+
+- Embudos multicanal:
+
+Los embudos estan diseñados para poder guiar a los usuarios al lugar donde se producirá la conversión en cuestión. Esto nos permite analizar en que parte del embudo los usuarios abandonan el proceso de conversión.
+
+---
+
+Hay muchos más conceptos que abarcar de GA pero estos no se van a tocar debido a que se requiere de un nivel más avanzado de conocimientos para poder sacarle todo el provecho a dicha información.
 
