@@ -170,3 +170,70 @@ Los embudos estan diseñados para poder guiar a los usuarios al lugar donde se p
 
 Hay muchos más conceptos que abarcar de GA pero estos no se van a tocar debido a que se requiere de un nivel más avanzado de conocimientos para poder sacarle todo el provecho a dicha información.
 
+## Yahoo Analytics
+
+Yahoo Analytics dejo de funcionar a partir del año 2012 
+
+## Otras herramientas gratuitas
+
+Ga es el lider indiscutible en cuanto se refiere a la recopilación y análisis de datos de comportamiento de los usurios. Pero eso no implica que no hayan otras herramientas que cuenten con características similares para el análisis de comportmaiento de los usuarios. A continuación veremos unas cuantas:
+
+- AWSTATS:
+
+Se trata de una herramienta enfocada en el análisis de datos ya sea de correos electronicos, ftps, webs etc... Su funcionamiento está más enfocado en el análisis de los datos que recopila el servidor mediante el log. Es una buena herramienta aunque cuenta con menos análisis que GA.
+
+- WEBALIZER:
+
+Es una pequeña herramienta desarrollada en C que nos permite obtener reportes de nuestro sitio web. Esta también funciona recopilando y manejando los datos que genera el servidor mediante logs. Este los analiza y devuelve una HTMl la cual nos permite revisar los datos análizados.
+
+- PIWIK:
+
+Esta es una alternativa OS a GA que también nos proporciona herramientas para el reporte de datos generados de nuestros sitios web.
+
+Caracteristicas de PIWIK:
+
+- Privacidad: Piwik prioriza la privacidad de los usuarios de manera que los datos que estos generen no sean utilizados ni vendidos a terceros como ocurre en el caso de GA.
+
+- Experiencia del usuario: Al ser OS nos permite ver el código y modificarlo a nuestro gusto de manera que podamos mejorar y extender las fucionalidades que nos ofrece le software base a nuestro gusto.
+
+- Capacidad: la herramienta la debemos gestionar mediante nuestros propios servidores por lo que su eficacia dependerá directamente de los recursos que le proporcionemos a lamisma para poder operar.
+
+![Dashboard de Piwik](./assets/PIWIK_dashboard.jpg)
+
+### MAPAS DE CALOR
+
+No es una herramienta en si, sino un tipo de análisis muy útil que nos permite analizar el comportamiento de nuestros usuario observando en que secciones de cada página suelen enfocarse más.
+
+### ClickHeat
+
+Al igual que Mapas de calor, es un tipo de análisis que nos ayuda a identificar los sitios más clicados dentro de nuestro sitio web con el fin de poder analizar tanto el comportamiento como mejorar los aspectos de UX/UI de nuestra web.
+
+## HERRAMIENTAS DE PAGO
+
+- ADOBE SYTE CATALYST
+
+Es una herramienta de gran potencial que permite realizar las tareas de análisis y reporte de os sitios web en conjunto de datos de otras herramientas.
+
+- KISSMETRICS
+
+Esta herramienta está más enfocada en los datos del usuario que nos visita que en los datos de nuestra web. Esto con el fin de poder generar reportes de que tipo de usuarios son los que acceden a nuestra  web.
+
+- COREMETRIX
+
+Herramienta que nos provee de datos en tiempo real de las principales métricas de nustra web.
+
+- WEBTRENDS
+
+Parecida a PIWIK priorizando la privacidad de los datos de nuestros clientes.
+
+- MIXPANEL
+
+Esta herramienta está más enfocada en el análisis de los datos de los dispositivos moviles.
+
+- Clicktale
+
+Esta herramienta nos da un análisis más detallado del comportamiento de nuestros usuarios permitiendonos hasta ver una emulación de las accionas que hacen nuestros usuarios en nuestra web.
+
+Entre otras cosas, clicktale nos permite trackear el movimiento del raton del usuario, Mapas de calor del sitio web y analisis de conversiones.
+
+![Clicktale](./assets/clicktale.jpg)
